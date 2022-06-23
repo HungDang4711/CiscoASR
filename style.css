@@ -1,0 +1,68 @@
+/* #box {
+    background-color: orange;
+    width: 300px;
+    padding: 30px;
+    border: black solid 10px;
+    box-sizing: border-box;
+    margin: 50px;
+    margin-top: 10px;
+} */
+body {
+    font-family: "TeleNeo Office";
+}
+
+header {
+    color: #009EDC;
+    text-align: center;
+    font-size: x-large;
+}
+
+img {
+    width: 100%;
+    
+}
+
+.blink {
+    animation: blinker 1s step-start infinite;
+}
+  
+  @keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+}
+
+section article {
+    float: left;
+    padding: 15px;
+    width: 33.333%;
+    box-sizing: border-box;
+}
+
+section article:hover {
+    border: rgb(226,0,116) solid 3px;
+    background-color: lightblue;
+}
+
+ul li::marker {
+    color: black;
+    font-size: 1.5em;
+}
+
+/* footer */
+
+footer {
+    clear: left;
+}
+
+footer img {
+    width: 10%;
+}
+
+footer span {
+    float: right;
+    font-size: 1.2em;
+    color: #009EDC;
+    font-variant: small-caps;
+    padding-top: 13px;
+}
